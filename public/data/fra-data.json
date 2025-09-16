@@ -1,0 +1,135 @@
+{
+  "states": [
+    {
+      "id": "madhya-pradesh",
+      "name": "Madhya Pradesh",
+      "center": [23.2599, 77.4126],
+      "districts": ["Balaghat", "Betul", "Chhindwara", "Dindori", "Jabalpur", "Mandla", "Narsinghpur", "Seoni"],
+      "villages": [
+        {
+          "name": "Kanha Village",
+          "coordinates": [22.2587, 80.6119],
+          "claims_filed": 45,
+          "claims_approved": 32,
+          "claims_pending": 13,
+          "status": "approved",
+          "district": "Balaghat"
+        },
+        {
+          "name": "Pench Village",
+          "coordinates": [21.7679, 79.2910],
+          "claims_filed": 38,
+          "claims_approved": 15,
+          "claims_pending": 23,
+          "status": "pending",
+          "district": "Seoni"
+        },
+        {
+          "name": "Bandhavgarh Village",
+          "coordinates": [23.7016, 80.8896],
+          "claims_filed": 52,
+          "claims_approved": 45,
+          "claims_pending": 7,
+          "status": "approved",
+          "district": "Umaria"
+        }
+      ]
+    },
+    {
+      "id": "tripura",
+      "name": "Tripura",
+      "center": [23.9408, 91.9882],
+      "districts": ["Dhalai", "Gomati", "Khowai", "North Tripura", "Sepahijala", "South Tripura", "Unakoti", "West Tripura"],
+      "villages": [
+        {
+          "name": "Jampui Hills Village",
+          "coordinates": [24.1363, 92.3040],
+          "claims_filed": 28,
+          "claims_approved": 20,
+          "claims_pending": 8,
+          "status": "approved",
+          "district": "North Tripura"
+        },
+        {
+          "name": "Gomati Village",
+          "coordinates": [23.5225, 91.4602],
+          "claims_filed": 34,
+          "claims_approved": 12,
+          "claims_pending": 22,
+          "status": "pending",
+          "district": "Gomati"
+        }
+      ]
+    },
+    {
+      "id": "odisha",
+      "name": "Odisha",
+      "center": [20.9517, 85.0985],
+      "districts": ["Angul", "Balangir", "Balasore", "Bargarh", "Bhadrak", "Boudh", "Cuttack", "Deogarh", "Dhenkanal", "Gajapati", "Ganjam", "Jagatsinghpur", "Jajpur", "Jharsuguda", "Kalahandi", "Kandhamal", "Kendrapara", "Kendujhar", "Khordha", "Koraput", "Malkangiri", "Mayurbhanj", "Nabarangpur", "Nayagarh", "Nuapada", "Puri", "Rayagada", "Sambalpur", "Sonepur", "Sundargarh"],
+      "villages": [
+        {
+          "name": "Similipal Village",
+          "coordinates": [21.6747, 86.4411],
+          "claims_filed": 67,
+          "claims_approved": 58,
+          "claims_pending": 9,
+          "status": "approved",
+          "district": "Mayurbhanj"
+        },
+        {
+          "name": "Koraput Forest Village",
+          "coordinates": [18.8122, 82.7113],
+          "claims_filed": 43,
+          "claims_approved": 18,
+          "claims_pending": 25,
+          "status": "pending",
+          "district": "Koraput"
+        },
+        {
+          "name": "Sundargarh Tribal Village",
+          "coordinates": [22.1181, 84.0233],
+          "claims_filed": 56,
+          "claims_approved": 49,
+          "claims_pending": 7,
+          "status": "approved",
+          "district": "Sundargarh"
+        }
+      ]
+    },
+    {
+      "id": "telangana",
+      "name": "Telangana",
+      "center": [18.1124, 79.0193],
+      "districts": ["Adilabad", "Bhadradri Kothagudem", "Hyderabad", "Jagtial", "Jangaon", "Jayashankar", "Jogulamba", "Kamareddy", "Karimnagar", "Khammam", "Komaram Bheem", "Mahabubabad", "Mahabubnagar", "Mancherial", "Medak", "Medchal", "Mulugu", "Nagarkurnool", "Nalgonda", "Narayanpet", "Nirmal", "Nizamabad", "Peddapalli", "Rajanna Sircilla", "Rangareddy", "Sangareddy", "Siddipet", "Suryapet", "Vikarabad", "Wanaparthy", "Warangal Rural", "Warangal Urban", "Yadadri Bhuvanagiri"],
+      "villages": [
+        {
+          "name": "Kawal Forest Village",
+          "coordinates": [19.0520, 79.2304],
+          "claims_filed": 41,
+          "claims_approved": 35,
+          "claims_pending": 6,
+          "status": "approved",
+          "district": "Adilabad"
+        },
+        {
+          "name": "Eturnagaram Village",
+          "coordinates": [18.3230, 80.1508],
+          "claims_filed": 29,
+          "claims_approved": 24,
+          "claims_pending": 5,
+          "status": "approved",
+          "district": "Mulugu"
+        },
+        {
+          "name": "Khammam Tribal Area",
+          "coordinates": [17.2473, 80.1514],
+          "claims_filed": 33,
+          "claims_approved": 15,
+          "claims_pending": 18,
+          "status": "pending",
+          "district": "Khammam"
+        }
+      ]
+    }
+  ]
+}
