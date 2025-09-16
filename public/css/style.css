@@ -1,0 +1,187 @@
+/* FRA Atlas DSS - Custom Styles */
+
+/* Government color scheme */
+:root {
+    --primary-color: #0d47a1;
+    --secondary-color: #1976d2;
+    --success-color: #2e7d32;
+    --warning-color: #f57c00;
+    --info-color: #0288d1;
+    --danger-color: #d32f2f;
+}
+
+/* Override Bootstrap primary colors */
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+/* Custom navbar styling */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin: 0 0.5rem;
+}
+
+/* Hero section */
+.hero-section {
+    min-height: 400px;
+}
+
+/* Card hover effects */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+/* Icon styling */
+.icon-wrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Page-specific styles */
+.page-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 3rem 0;
+}
+
+/* Map container */
+#map {
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Filter sidebar */
+.filter-sidebar {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+/* OCR upload area */
+.upload-area {
+    border: 2px dashed #dee2e6;
+    border-radius: 8px;
+    padding: 3rem;
+    text-align: center;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.upload-area:hover {
+    border-color: var(--primary-color);
+    background-color: #f8f9fa;
+}
+
+.upload-area.dragover {
+    border-color: var(--success-color);
+    background-color: #f1f8e9;
+}
+
+/* Document preview */
+.document-preview {
+    max-height: 400px;
+    overflow: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+/* Chart containers */
+.chart-container {
+    position: relative;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+/* DSS recommendation cards */
+.recommendation-card {
+    border-left: 4px solid var(--primary-color);
+    background-color: #f8f9fa;
+}
+
+.recommendation-card.warning {
+    border-left-color: var(--warning-color);
+}
+
+.recommendation-card.success {
+    border-left-color: var(--success-color);
+}
+
+.recommendation-card.info {
+    border-left-color: var(--info-color);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    #map {
+        height: 400px;
+    }
+    
+    .filter-sidebar {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Loading spinner */
+.spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid var(--primary-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Utility classes */
+.text-muted-light {
+    color: #6c757d !important;
+}
+
+.border-start-primary {
+    border-left: 4px solid var(--primary-color) !important;
+}
+
+.bg-light-blue {
+    background-color: #e3f2fd !important;
+}

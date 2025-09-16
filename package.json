@@ -1,0 +1,13 @@
+{
+  "name": "fra-atlas-dss",
+  "version": "1.0.0",
+  "description": "Forest Rights Act Decision Support System - Government Hackathon Prototype",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
