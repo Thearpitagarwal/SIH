@@ -1,0 +1,65 @@
+Map Page: Comprehensive Edit Prompt
+
+Layered, Filterable Map Visualizations
+
+Incorporate distinct map layers for:
+
+Individual Forest Rights (IFR) claims and granted pattas
+
+Community Rights (CR) and Community Forest Resource (CFR) boundaries
+
+Village boundaries, forest compartments, and key assets (ponds, agriculture, water bodies, etc.)
+
+Add interactive filters so users can view data by state, district, block, village, or tribal group.
+
+Enable overlay toggles for asset layers (such as water bodies, farmland) in addition to claim data for comprehensive spatial context.
+
+Dynamic Visual Status Updates
+
+Design the map so that every claim or patta displayed has a clear visual status (pending, accepted, rejected):
+
+Use color-coded pins or polygons (e.g., green for accepted, yellow for pending, red for rejected).
+
+Ensure that whenever a claim decision (accept/reject) is made in the app, the corresponding element on the map updates immediately—without needing a page reload.
+
+Provide a simple legend to explain color codes and statuses.
+
+Intuitive Action Feedback
+
+After any user action (accept/reject claim, toggle a layer, zoom to village), give instant, visible feedback:
+
+Display a confirmation modal or toast notice for claim review decisions.
+
+Consider animating the affected claim feature or briefly highlighting it.
+
+If a claim is acted on, attach a visible tag or badge (e.g., “Accepted on: [date]”) in the info popup or sidebar.
+
+User-Friendly Popups and Info Panels
+
+Clicking a map feature (claim, asset, or boundary) should open a popup or side panel with:
+
+All available details: claimant name, claim area, coordinates, village, asset type, date filed/status.
+
+Supporting document preview links if present (e.g., scanned form, patta certificate).
+
+Buttons for further actions or navigation (e.g., “Review in DSS,” “Download map,” “See related schemes”).
+
+Source and Data Transparency
+
+At the bottom of the map or as part of the map legend/help menu, clearly mention the origin of each dataset/layer (FSI, Census, India Geospatial, project upload, etc.).
+
+Provide a disclaimer if any layer is sample/demo data in the prototype.
+
+Accessible Navigation and Legend
+
+Make sure users can always easily switch map views and turn on/off layers with minimal clicks.
+
+Map legend should be ever-present or one-click accessible, clearly explaining all symbols and colors.
+
+General Usability and Clarity
+
+All design elements (popups, color schemes, legends, icons) should be readable and accessible, including on mobile.
+
+Maintain consistent UI language (e.g., terminology for “claim,” “patta,” “asset”).
+
+Include help/info tooltips where needed for non-expert users.
