@@ -1,7 +1,7 @@
 {
-  "name": "fra-atlas-dss",
+  "name": "aranyaquest",
   "version": "1.0.0",
-  "description": "Forest Rights Act Decision Support System - Government Hackathon Prototype",
+  "description": "AranyaQuest - Forest Rights Act Decision Support System - Government Hackathon Prototype",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

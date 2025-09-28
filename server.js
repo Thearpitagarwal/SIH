@@ -267,6 +267,6 @@ app.get('/:page', (req, res) => {
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`FRA Atlas DSS server running on http://0.0.0.0:${PORT}`);
+  console.log(`AranyaQuest server running on http://0.0.0.0:${PORT}`);
   console.log('Server is ready to serve the application');
 });
