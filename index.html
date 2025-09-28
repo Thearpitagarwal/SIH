@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AranyaQuest - Forest Rights Act Decision Support System</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">
+                <i class="fas fa-leaf me-2"></i>AranyaQuest
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="map">Map</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ocr">OCR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="statistics">Statistics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dss">DSS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold text-primary mb-4">AranyaQuest</h1>
+                    <h2 class="h3 text-secondary mb-4">Forest Rights Act Decision Support System</h2>
+                    <p class="lead mb-4">
+                        A comprehensive digital platform for monitoring and managing Forest Rights Act (FRA) 
+                        implementation across India. AranyaQuest provides real-time insights, document processing 
+                        capabilities, and data-driven decision support for effective forest governance.
+                    </p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fas fa-map-marked-alt text-primary" style="font-size: 8rem; opacity: 0.8;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Features -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">System Modules</h2>
+            <div class="row g-4">
+                <!-- Map Module -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-wrapper mb-3">
+                                <i class="fas fa-map text-primary" style="font-size: 3rem;"></i>
+                            </div>
+                            <h5 class="card-title">Interactive Map</h5>
+                            <p class="card-text text-muted">
+                                Visualize FRA claims and implementation status across different states and districts.
+                            </p>
+                            <a href="map" class="btn btn-primary">View FRA Map</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OCR Module -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-wrapper mb-3">
+                                <i class="fas fa-file-upload text-success" style="font-size: 3rem;"></i>
+                            </div>
+                            <h5 class="card-title">Document OCR</h5>
+                            <p class="card-text text-muted">
+                                Upload and extract text from FRA documents using optical character recognition.
+                            </p>
+                            <a href="ocr" class="btn btn-success">Upload Documents</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Statistics Module -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-wrapper mb-3">
+                                <i class="fas fa-chart-bar text-info" style="font-size: 3rem;"></i>
+                            </div>
+                            <h5 class="card-title">Analytics</h5>
+                            <p class="card-text text-muted">
+                                Comprehensive statistics and trends analysis of FRA implementation data.
+                            </p>
+                            <a href="statistics" class="btn btn-info">See Statistics</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DSS Module -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-wrapper mb-3">
+                                <i class="fas fa-brain text-warning" style="font-size: 3rem;"></i>
+                            </div>
+                            <h5 class="card-title">Decision Support</h5>
+                            <p class="card-text text-muted">
+                                AI-driven insights and recommendations for policy decisions.
+                            </p>
+                            <a href="dss" class="btn btn-warning">Decision Support System</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="mb-1">&copy; 2025 AranyaQuest - Government of India Hackathon Prototype</p>
+                    <p class="mb-0 small text-muted">Forest Rights Act Decision Support System</p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <a href="about" class="text-white text-decoration-none">About This Project</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
